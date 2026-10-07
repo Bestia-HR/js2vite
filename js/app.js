@@ -35,11 +35,17 @@ switch(seat)
             break;
         }
 }
-
+// wiem ze bez sensu ale trzeba powtórzyć warunki () ? "true":"false"
 if(seat==12)
 {
     console.log(PokazIlosc());
     
+}else if(seat<6)
+{
+    console.log(PokazIlosc());
+}else
+{
+    console.log(PokazIlosc());
 }
 
 
