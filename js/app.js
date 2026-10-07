@@ -5,10 +5,12 @@
 // console.log("127");
 
 const seat = 12;
-const title= 'Kurs JavaScript';
+let title= 'Kurs JavaScript';
 let enrolled = 2;
 let slogan;
 let course;
+let leanguage = (seat <= 12) ? 'Javascript' : 'naprawa płota przy pomocą młotka';
+
 
 console.log(typeof seat);
 console.log(typeof title);
@@ -20,6 +22,24 @@ function PokazIlosc()
 
 }
 
+switch(seat)
+{
+    case 0:
+        {
+            title = "Nikogo w JS";
+            break;
+        }
+    default:
+        {
+            title = "Kurs w przygowowaniu ";
+            break;
+        }
+}
 
+if(seat==12)
+{
+    console.log(PokazIlosc());
+    
+}
 
 
