@@ -6,7 +6,7 @@
 
 const seat = 12;
 const title= 'Kurs JavaScript';
-let enrolled = 12;
+let enrolled = 2;
 let slogan;
 let course;
 
@@ -14,7 +14,11 @@ console.log(typeof seat);
 console.log(typeof title);
 console.log(typeof slogan);
 console.log(typeof course);
+function PokazIlosc()
+{
+    console.log(`${title}: wolne ${seat-enrolled } z ${seat}`);
 
+}
 
 
 
